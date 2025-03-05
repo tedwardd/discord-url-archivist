@@ -14,6 +14,12 @@ history
 ## Known Issues
 
 Recently, archive.is has introduced a captcha on it's `/capture` endpoint. This
-results in an unfortunately frequent HTTP 427. I've taken this in to account
+results in an unfortunately frequent HTTP 429 I've taken this in to account
 and the bot will report it in chat, but I've not yet figured out a way around
 the issue. Suggestions welcome.
+
+## TODO
+
+* Support a configuration file
+* Find a way around the captcha/429 issue
+* Provide a setup script
